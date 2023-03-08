@@ -1,0 +1,9 @@
+//writing a 404 error handler
+
+'use strict';
+
+module.exports = (req, res, next) => {
+    res.status(404).send('Not Found');
+    }
+
+    
