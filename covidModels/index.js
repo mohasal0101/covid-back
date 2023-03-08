@@ -4,7 +4,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 const record = require('./records.models.js');
 
 
-const DB_URL = process.env.DATABASE_URL || 'postgres://salah:1470@localhost:5432/salah';
+const DB_URL = process.env.DATABASE_URL || 'postgres://salah_user:MWJvDuC4IvJxf9LblLrsKBfSR22M0WCf@dpg-cg48uv9mbg5d8849fong-a.oregon-postgres.render.com/salah';
 
 let sequelizeOptions = {
 
@@ -18,7 +18,7 @@ let sequelizeOptions = {
 };
 
 
-const sequelize = new Sequelize(DB_URL, /* sequelizeOptions */);
+const sequelize = new Sequelize(DB_URL, sequelizeOptions);
 
 
 const modelRecord = record(sequelize,DataTypes);
