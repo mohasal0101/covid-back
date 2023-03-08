@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => sequelize.define('record',{
         allowNull:false
     },
     date:{
-        type: DataTypes.STRING,
+        type: DataTypes.STRING,          
         allowNull: false
     }
 }
