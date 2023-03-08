@@ -18,7 +18,10 @@
   "homepage": "https://github.com/mohasal0101/covid-back#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "node": "^19.6.1"
+    "node": "^19.6.1",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.1"
   }
 }

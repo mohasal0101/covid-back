@@ -3,9 +3,9 @@
 
 const express = require('express');
 const cors = require('cors');
-const notFoundHandler = require('./error-handlers/404.js');
-const errorHandler = require('./error-handlers/500.js');
-const cardRoutes = require('./routes/card-routes.js');
+const notFoundHandler = require('./errorHandlers/404.js');
+const errorHandler = require('./errorHandlers/500.js');
+const cardRoutes = require('./controllers/routes.js');
 
 const app = express();
 
